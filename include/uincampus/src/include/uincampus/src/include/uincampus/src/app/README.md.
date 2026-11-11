@@ -1,0 +1,39 @@
+# UIN-Campus — Système de gestion académique
+
+## Description
+
+Ce projet est réalisé dans le cadre du TP de Programmation Orientée Objet en C++.
+
+Il permet de gérer les notes des étudiants, de calculer les moyennes et d'attribuer des mentions selon les règles académiques.
+
+## Organisation du projet
+
+- `include/uincampus/` : fichiers d'en-tête.
+- `src/` : implémentation des fonctions.
+- `app/` : programme principal.
+- `CMakeLists.txt` : configuration de compilation.
+- `CMakePresets.json` : préréglages de compilation.
+
+## Fonctionnalités
+
+- Saisie et validation des notes.
+- Calcul des moyennes.
+- Attribution des mentions.
+- Détermination de la décision académique.
+- Affichage de la version du projet.
+
+## Compilation
+
+Le projet nécessite un compilateur compatible C++23, CMake et Ninja.
+
+Pour configurer le projet :
+
+    cmake --preset debug
+
+Pour compiler :
+
+    cmake --build --preset debug
+
+Pour exécuter :
+
+    ./build/debug/uin-campus
